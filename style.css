@@ -1,0 +1,173 @@
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 0 20px;
+}
+
+.logo {
+    display: flex;
+
+    background-color: rgb(80, 199, 11);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 1/1;
+    border-radius: 20px;
+}
+
+.header {
+    display: flex;
+    background-color: rgb(32, 96, 235);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/4;
+    border-radius: 20px;
+}
+
+.menu {
+    display: grid;
+    grid-column: 2/4;
+    grid-row: 2/2;
+    flex-wrap: wrap;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    background-color: rgb(215, 223, 250);
+    border-radius: 20px;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+ul li {
+    padding: 10px;
+    font-size: larger;
+}
+
+ul li:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+.contenedorland {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    gap: 0 20px;
+}
+
+.sidebar {
+    display: flex;
+    background-color: rgb(64, 230, 14);
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.maincontent {
+    background-color: rgb(223, 250, 215);
+    grid-column: 2/4;
+    border-radius: 20px;
+}
+
+.formacion {
+    display: flex;
+    flex-direction: row;
+    justify-items: space-around;
+    justify-content: space-around;
+    gap: 15px;
+    margin: 30px;
+    flex-wrap: wrap;
+}
+
+.boton {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-items: center;
+    gap: 15px;
+}
+.botonsid button{
+    width: 200px;
+    height: 50px;
+
+}
+
+
+.contenedoralum {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.alumnoimg {
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    margin: 10px;
+}
+
+.alumnop{
+    display: flex;
+    flex-direction: column;
+    border: solid thin black;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+.alumno{
+    display: flex;
+    flex-direction: column;
+    border: solid thin black;
+    text-align: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: rgb(218, 255, 196);
+}
+
+.videos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+    flex-wrap: wrap;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+    border: solid thin black;
+    border-radius: 20px;
+}
+.video h1{
+    margin: 10px;
+}
+.video img {
+    border-radius: 20px;
+    margin: 10px;
+}
+
+.footervid {
+    background-color: gray;
+    border-radius: 20px;
+    margin: 10px;
+}
+
+footer{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    background-color: rgb(132, 189, 106);
+    margin-top: 50px;
+    padding: 20px
+}
+.interes{
+    background-color: rgb(132, 189, 106);
+}
